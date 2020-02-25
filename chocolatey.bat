@@ -8,5 +8,6 @@ choco install sublimetext3
 choco install ffmpeg
 choco install vlc
 choco install googlechrome
+choco install teamviewer
 
 PAUSE
