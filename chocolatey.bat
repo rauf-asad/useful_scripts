@@ -9,5 +9,6 @@ choco install ffmpeg
 choco install vlc
 choco install googlechrome
 choco install teamviewer
+choco install typora
 
 PAUSE
