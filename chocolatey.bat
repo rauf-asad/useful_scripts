@@ -5,5 +5,10 @@ choco install 7zip.install
 choco install git.install
 choco install vscode
 choco install sublimetext3
+choco install ffmpeg
+choco install vlc
+choco install googlechrome
+choco install teamviewer
+choco install typora
 
 PAUSE
