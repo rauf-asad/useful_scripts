@@ -14,4 +14,10 @@ youtube-dl -F <url>
 
    done
 
+   ### Add playlist numbers
+   
+   ```powershell
+   youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" <playlist_link>
+   ```
+   
    
