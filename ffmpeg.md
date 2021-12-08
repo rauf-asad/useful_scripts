@@ -12,3 +12,8 @@ ffmpeg -ss [start] -i in.mp4 -to [endtime] -c copy out.mp4
 ffmpeg -i yourmkv.mkv -i yoursubtitles.sub -map 0 -map 1 -c copy youroutput.mkv
 ```
 
+#### Adding audio to video
+
+```powershell
+ffmpeg -i video.webm -i audio.webm -map 0 -map 1:a -c:v copy -shortest output.webm
+```
